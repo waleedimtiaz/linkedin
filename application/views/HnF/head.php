@@ -16,10 +16,10 @@
             <span class="icon-bar"></span>
           </button>
           <ul class="nav">
-          	<li><img src="http://localhost/web/images/logo4.png" style="height:30px; width:100px"></li>
+          	<li><a href="http://localhost/linkedin/index.php/control"><img src="http://localhost/linkedin/images/logo4.png" style="height:30px; width:100px"></a></li>
       	  </ul>
             <ul class="nav pull-right">
-              <li><a href="http://localhost/web/index.php/control/whatislinkedin">What is LinkedIn?</a></li>
+              <li><a href="http://localhost/linkedin/index.php/control/whatislinkedin">What is LinkedIn?</a></li>
               <li><a href="#about">Join Today</a></li>
               <li><a href="#contact">Sign In</a></li>
             </ul>
