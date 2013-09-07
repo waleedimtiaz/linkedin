@@ -1,0 +1,153 @@
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    #tabp {
+      position: relative;
+      top: 0;
+      left: 20px;
+      right: 0px;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: 60px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+      width: 96.5%;
+    }
+    
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+   
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+    }
+
+
+   
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          position: relative;
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      #contf {
+        width: auto;
+        max-width: 80%;
+      }
+      #contf .credit {
+        margin: 30px 0;
+      }
+
+      #outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
+}
+
+      .form-horizontal {
+        max-width: 50%;
+        padding: 19px 50px 29px;
+        margin: 20 auto 20px;
+        background-color: #fff  ;
+        border: 1px solid black;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+   
+      
+      .form-horizontal input[type="text"],
+      .form-horizontal input[type="password"],
+      .form-horizontal input[type="email"] {
+        font-size: 16px;
+        height: 25px;
+        margin-bottom: 15px;
+        margin-left: -80px;
+       
+    background-color: white;
+      }
+
+      .form-horizontal label {
+        margin-left: -80px;
+      }
+   
+   .what-is {
+        max-width: 80%;
+        padding: 19px 50px 29px;
+        margin: 20 auto 20px;
+        background-color: #fff  ;
+        border: 1px solid black;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+   
