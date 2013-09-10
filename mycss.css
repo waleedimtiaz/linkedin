@@ -150,4 +150,295 @@
            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
                 box-shadow: 0 1px 2px rgba(0,0,0,.05);
       }
+	  
+	  
+	  
+	  body, html{
+	margin: 0;
+	padding: 0;
+}
+
+div.header{
+	width: 100%;
+	background-color: #3f3f3f;
+	background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+	height: 42px;
+	min-width: 980px;
+}
+
+div.header-content{
+	width: 974px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+div.header-logo{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+div.header-links{
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: right;
+	margin-top: 11px;
+	
+}
+
+img.logo{
+	margin-top: 7px;
+}
+
+div.header-links a{
+	color: white;
+	text-decoration: none;
+	padding-left: 15px;
+}
+div.header-links a:hover{
+	color: #39C;
+}
+
+div.container{
+	width: 980px;
+	height: 503px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	
+}
+div.container div.main{
+    min-width: 805px;
+	width: auto;
+	margin: 0 auto;
+}
+
+div.main div.static-left{
+	float: left;
+	width: 420px;
+	height: 200px;
+}
+
+div.static-left h1{
+	font-size: 18px;
+	color: #39C;
+	text-align: left;
+	font-weight: bold;
+	line-height: 1.55;
+	margin-bottom: 15px;
+}
+
+div.content-box-1{
+	width: 420px;
+	float: left;
+	height: 33px;
+	margin-bottom: 3px;
+	
+}
+div.content-box-2{
+    width: 420px;
+	float: left;
+	height: 38px;
+	margin-bottom: 3px;
+	
+}
+
+div.icon-reconnect{
+	background: url('../img/home_icons.png') no-repeat;
+	background-position: 0 3px;
+	width: 65px;
+	height: 33px;
+	float: left;
+	
+	
+}
+
+div.icon-answers{
+	background: url('../img/home_icons.png') no-repeat;
+	background-position: 5px -222px;
+	width: 65px;
+	height: 33px;
+	float: left;
+	
+	
+}
+div.icon-power{
+    background: url('../img/home_icons.png') no-repeat;
+	background-position: 0px -144px;
+	width: 65px;
+	height: 33px;
+	float: left;
+	
+	
+}
+
+span.icon-text{
+	display: block;
+	float: left;
+	width: 355px;
+	margin-top: 11px;
+	color: #666;
+	font-size: 96%;
+}
+div.main div.form-right{
+    float: right;
+	width: 320px;
+	height: 266px;
+	margin-bottom: 40px;
+	background: red;
+	
+}
+div.main div.search-browser{
+    width: 100%;
+	border-top: 1px solid #ccc;
+	padding: 20px 0 0;
+	clear: both;
+	height: 177px;
+    
+	
+}
+div.search{
+   clear: both;
+   text-align: center;
+   height: 26px;
+   background: red;
+}
+div.directory{
+   border-bottom: 0;
+   margin: 15px 0 20px;
+   padding-bottom: 0;
+   text-align: center;
+   font-size: 11px;
+   height: 48px;
+   
+}
+div.directory h3{
+   display: inline;
+   margin: 0;
+   padding: 0 0 0 8px;
+   color: #666;
+   font-weight: normal;
+   font-size: 11px;
+   line-height: 20px;
+   
+}
+div.directory-links{
+   border-right: 0;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0 4px 0 0;
+   display: inline;
+   font-size: 11px;
+  
+}
+div.directory-links a{
+   display: inline;
+   color: #069;
+   
+}
+div.directory-links a:hover{
+   text-decoration: underline;
+   
+}
+div.directory div.country-search{
+   margin-top: 0;
+   text-align: center;
+   margin: 0 auto;
+   width: 960px;
+   height: 16px;
+   font-size: 11px;
+}
+div.directory div.country-search h3{
+   line-height: 10px;
+}
+div.link{
+  line-height: 1.5;
+  margin: 0;
+  display: inline;
+  font-size: 11px;
+}
+
+div.link a{
+   display: inline;
+   color: #069;
+   
+}
+div.link a:hover{
+  text-decoration: underline;
+}
+div.agreement{
+   text-align: left;
+   font-size: 82%;
+   color: #666;
+   border-top: 1px solid #ccc;
+   padding: 20px 0 10px;
+   
+}
+div.agreement-links{
+   margin: 0;
+   display: inline;
+   font-size: 11px;
+}
+div.agreement-links a{
+   display: inline;
+   color: #069;
+}
+div.agreement-links a:hover{
+  text-decoration: underline;
+}
+
+div.footer{
+    width: 974px;
+    height: 95px;
+    margin: 0 auto;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #ccc;
+}
+
+div.footer-content{
+    width: 974px;
+	height: 25px;
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: normal;
+	
+	
+}
+
+div.footer-links a{
+    border-right: 1px solid #ccc;
+    margin-bottom: 3px;
+	margin-right: 8px;
+	padding-right: 8px;
+	margin-top: 5px;
+	float: left;
+	color: #069;
+	text-decoration: none;
+}
+div.footer-links a:hover{
+    text-decoration: underline;
+}
+div.copyright{
+    border-right: 1px solid #ccc;
+	margin-right: 8px;
+	padding-right: 8px;
+	margin-top: 5px;
+	float: left;
+	
+}
+div.copyright-logo {
+    float: left;
+	height: 16px;
+	width: 62px;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 3px;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	background: url('../img/copyright.png') no-repeat;
+}
+
    
