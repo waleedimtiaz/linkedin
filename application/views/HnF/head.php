@@ -21,7 +21,7 @@
             <ul class="nav pull-right">
               <li><a href="http://localhost/linkedin/index.php/control/whatislinkedin">What is LinkedIn?</a></li>
               <li><a href="#about">Join Today</a></li>
-              <li><a href="#contact">Sign In</a></li>
+              <li><a href="http://localhost/linkedin/index.php/control/signin">Sign In</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
