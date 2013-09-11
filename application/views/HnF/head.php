@@ -1,32 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head> 
-    <title>head</title>    
-  </head>
-
-  <body>
-
-<div id="tabp">
-  	<div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <ul class="nav">
-          	<li><a href="http://localhost/linkedin/index.php/control"><img src="http://localhost/linkedin/images/logo4.png" style="height:30px; width:100px"></a></li>
-      	  </ul>
-            <ul class="nav pull-right">
-              <li><a href="http://localhost/linkedin/index.php/control/whatislinkedin">What is LinkedIn?</a></li>
-              <li><a href="#about">Join Today</a></li>
-              <li><a href="http://localhost/linkedin/index.php/control/signin">Sign In</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+<div class="header">
+      <div class="header-content">
+        <div class="header-logo">
+          <a href="http://localhost/linkedin/index.php/control"><img class="logo" src="http://localhost/linkedin/images/logo.png" /></a>
+        </div>
+        
+        <div class="header-links">
+          <a href="http://localhost/linkedin/index.php/control/signin">
+            <div class="link-wrapper">Sign In</div>
+          </a>
+          <a href="http://localhost/linkedin/index.php/control/joinnow">
+            <div class="link-wrapper">Join Today</div>
+          </a>
+          <a href="http://localhost/linkedin/index.php/control/whatislinkedin">
+            <div class="link-wrapper">What is LinkedIn?</div>
+          </a>
         </div>
       </div>
     </div>
-
-  </body>
-</html> 

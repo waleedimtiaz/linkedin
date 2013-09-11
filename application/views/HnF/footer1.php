@@ -1,4 +1,18 @@
-<div id="footer">
-      <div class="container" id="contf">
-        <p class="muted credit"> *By joining LinkedIn, you agree to LinkedIn's <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a>
-</div>
+<div class="footer">
+           <div class="footer-content">
+		        <div class="copyright">
+		            <div class="copyright-logo">
+			        </div>
+		        </div>
+				<div class="footer-links">
+			     <a href="what_is_linkedin.html">User Agreement</a>
+				 <a href="what_is_linkedin.html">Privacy Policy</a>
+				 <a href="what_is_linkedin.html">Community Guidelines</a>
+				 <a href="what_is_linkedin.html">Cookie Policy</a>
+				 <a href="what_is_linkedin.html">Copyright Policy</a>
+				 
+				 
+			   </div>
+				 
+		    </div>
+		</div>

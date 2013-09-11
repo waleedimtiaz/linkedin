@@ -3,35 +3,35 @@
         background-color: #e9e9e9;
       }
       </style>
-<div class="row">
+<div class="signin-main">
+          
+          <div class="signin-page-title">
+                <h1>Sign in to LinkedIn</h1>
 
-  <div class="span2"></div>
-  <div class="span8">
- <h4>Sign In to LinkedIn</h4>
+          </div>
+          <div class="signin-wrapper">
+            <div class="signin-box">
+              <form id="signin-form" class="signin-form"  method="post" action="asd.php">
+            <div class="field-wrapper">
+              <label for="email-reg">Email: </label>
+              <div class="field-error">
+                <span id="email-reg-error" class="form-error-text"></span>
+                  <input type="text" id="email-reg" name="email" />
+              </div>    
+            </div>
+            <div class="field-wrapper">
+              <label for="pwd-reg">Password: </label>
+              <div class="field-wrapper">
+                <span id="pwd-reg-error" class="form-error-text"></span>
+                  <input type="password" id="pwd-reg" name="password" />
+                  <a href="http://localhost/linkedin/index.php/control/changepw" class="forgot-password-link">Forgot password?</a>
+              </div>    
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Sign In</button> <span class="join-linkedlin-link"> or <a href="http://localhost/linkedin/index.php/control/joinnow">Join LinkedIn</span>
+          </form>
+            </div>
+          </div>
 
-<form class="form-horizontal" method="post" action="#">
-        <div class="control-group"> 
-   <strong> <label class="control-label" for="em">Email:</label> </strong>
-    <div class="controls">
-      <input type="email" name="email" id="em" class="input-medium" required>
-    </div>
-  </div>
-  <div class="control-group">
-    <label class="control-label" for="pw">Password:</label>
-    <div class="controls">
-      <input type="password" name="pwd" id="pw" class="input-medium" required>
-      <a href=#>Forgot Password?</a>
-    </div>
-    
-  </div>
-    
-    <button class="btn btn-small btn-primary" type="submit">Sign In</button> 
-    
-     <a href=#>Join LinkedIn.</a>
-      </form>
-</div>
-</form>
-
-</div>
-<div class="span2"></div>
-</div>
+          
+        </div>

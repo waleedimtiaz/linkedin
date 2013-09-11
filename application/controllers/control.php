@@ -10,11 +10,9 @@ class control extends CI_Controller {
 	public function loadpage()
 	{	
 	$this->load->view('HnF/head');
-	$this->load->view('signup');
-	$this->load->view('find');	
-	$this->load->view('HnF/footer1');
+	$this->load->view('signup');		
 	$this->load->view('HnF/footer');
-	$this->load->view('HnF/footer2');
+	
 	}
 
 	public function whatislinkedin()
@@ -23,7 +21,6 @@ class control extends CI_Controller {
 	$this->load->view('HnF/head');
 	$this->load->view('whatis');
 	$this->load->view('HnF/footer');
-	$this->load->view('HnF/footer2');
 	}
 
 	public function signin()
@@ -31,7 +28,22 @@ class control extends CI_Controller {
 	$this->load->view('style');
 	$this->load->view('HnF/head');
 	$this->load->view('signin');
-	$this->load->view('HnF/footer2');
+	$this->load->view('HnF/footer1');
+	}
+
+	public function joinnow()
+	{
+	$this->load->view('style');
+	$this->load->view('join1');
+	$this->load->view('HnF/footer1');
+	}
+
+	public function changepw()
+	{
+	$this->load->view('HnF/head');
+	$this->load->view('style');
+	$this->load->view('changepw');
+	$this->load->view('HnF/footer1');
 	}
 	
 	public function index()
