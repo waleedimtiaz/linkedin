@@ -6,6 +6,8 @@ class control extends CI_Controller {
 	{
 		parent::__construct();
 		//$this->load->model('Donor_model');
+		$this->load->helper('url');
+
 	}
 	public function loadpage()
 	{	
@@ -33,9 +35,11 @@ class control extends CI_Controller {
 
 	public function joinnow()
 	{
+	$this->load->view('HnF/head');
 	$this->load->view('style');
 	$this->load->view('join1');
 	$this->load->view('HnF/footer1');
+	
 	}
 
 	public function changepw()
@@ -52,5 +56,21 @@ class control extends CI_Controller {
 		$this->loadpage();
 		
 
+	}
+
+	public function mycountry()
+	{
+	$this->load->view('HnF/head');
+	$this->load->view('style');
+	$this->load->view('country');
+	$this->load->view('HnF/footer1');
+	}
+
+	public function useragreement()
+	{
+	$this->load->view('HnF/head');
+	$this->load->view('style');
+	$this->load->view('agreement');
+	$this->load->view('HnF/footer');
 	}	
 }

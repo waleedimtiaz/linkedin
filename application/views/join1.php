@@ -1,13 +1,7 @@
- <style type="text/css">
- body {
-        background-color: #e9e9e9;
-      }
-      </style>
-<div class="join-main">
+   <div class="join-main">
           
           <div class="join-page-title">
-                <h1>Sign in to LinkedIn</h1>
-
+                <h1>To join LinkedIn, sign up below...it's free!</h1>
           </div>
           
             <div class="join-box">
@@ -36,18 +30,18 @@
               </div>
               <div class="field-wrapper field-wrapper-password">
                 <label for="pwd-reg">Password: </label>
-                <div class="field-wrapper">
-                  <span id="pwd-reg-error" class="form-error-text"></span>
+                <div class="field-error">
+                    <span id="pwd-reg-error" class="form-error-text"></span>
                     <input type="password" id="pwd-reg" name="password" />
+                    <p style="margin-left: 0px; margin-top: 5px;">6 or more characters</p>
                 </div>    
-                <p>6 or more characters</p>
               </div>
               
               <div id="actions">
               <button type="submit" class="btn btn-success">Join Now</button> <span class="asterik">*</span>
               </div>
               <p class="already-on-linkedin-message">Already on LinkedIn?
-                <a href="http://localhost/linkedin/index.php/control/signin">Sign in.</a>
+                <a href="<?php echo base_url(); ?>index.php/control/signin">Sign in.</a>
               </p>
 
 
@@ -55,33 +49,35 @@
 
 
             
-          </div>
+             </div>
 
-<div id="extra">
-          <div class="sign-in-with">
-            <p class="handwritten">Save time by using your Facebook account to sign up for LinkedIn.</p>
-            <p class="actions">              
-                
-                  <a class="fb_button" href="#"><span class="fb_button_text">Sign up with Facebook</span></a>
-                
-        
-               </p>
-          </div>
-    </div>
-          
 
-<div class="agreement">
+        <div class="join-today-extra">
+          <div class="join-today-sign-in-with">
+            <p>Save time by using your Facebook account to sign up for LinkedIn.</p>
+            <div class="join-today-actions">              
+                
+                  <a class="fb_button" href="<?php echo base_url(); ?>">
+                    <span class="fb_button_text">Sign up with Facebook</span>
+                  </a>
+                  
+            </div>
+        </div>
+     </div>
+    <div class="join-today-agreement">
               <strong>*</strong>
             By joining LinkedIn, you agree to linkedIn's
             <div class="agreement-links">
-               <a href="what_is_linkedin.html">User Agreement</a>
+               <a href="<?php echo base_url(); ?>">User Agreement</a>
                ,
-               <a href="what_is_linkedin.html">Privacy Policy</a>
+               <a href="<?php echo base_url(); ?>">Privacy Policy</a>
                and
-               <a href="what_is_linkedin.html">Cookie Policy</a>
+               <a href="<?php echo base_url(); ?>">Cookie Policy</a>
                .
             </div>
           </div>
 
           
-        </div>
+      </div>
+
+      

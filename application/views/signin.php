@@ -1,8 +1,4 @@
- <style type="text/css">
- body {
-        background-color: #e9e9e9;
-      }
-      </style>
+ 
 <div class="signin-main">
           
           <div class="signin-page-title">
@@ -24,11 +20,11 @@
               <div class="field-wrapper">
                 <span id="pwd-reg-error" class="form-error-text"></span>
                   <input type="password" id="pwd-reg" name="password" />
-                  <a href="http://localhost/linkedin/index.php/control/changepw" class="forgot-password-link">Forgot password?</a>
+                  <a href="<?php echo base_url(); ?>index.php/control/changepw" class="forgot-password-link">Forgot password?</a>
               </div>    
             </div>
             
-            <button type="submit" class="btn btn-primary">Sign In</button> <span class="join-linkedlin-link"> or <a href="http://localhost/linkedin/index.php/control/joinnow">Join LinkedIn</span>
+            <button type="submit" class="btn btn-primary">Sign In</button> <span class="join-linkedlin-link"> or <a href="<?php echo base_url(); ?>index.php/control/joinnow">Join LinkedIn</span>
           </form>
             </div>
           </div>

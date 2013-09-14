@@ -1,3 +1,8 @@
+<style type="text/css">
+ body {
+        background: white;
+      }
+      </style>
 <div class="pw-main">
           
           <div class="pw-page-title">

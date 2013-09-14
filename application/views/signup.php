@@ -1,6 +1,13 @@
+
+<style type="text/css">
+ body {
+        background: white;
+      }
+      </style>
+
 <div class="container">
       <div class="alert alert-error myerrorbar">
-      <img class="error-icon" src="http://localhost/linkedin/images/error.png" /> <span class="error-text">Please correct the marked field(s) below.</span>
+      <img class="error-icon" src="<?php echo base_url(); ?>images/error.png" /> <span class="error-text">Please correct the marked field(s) below.</span>
       </div>
       <div class="main">
           <div class="static-left">
@@ -57,7 +64,7 @@
               
               <button type="submit" class="btn btn-success">Join Now</button> <span class="asterik">*</span>
               <p class="already-on-linkedin-message">Already on LinkedIn?
-                <a href="http://localhost/linkedin/index.php/control/signin">Sign in.</a>
+                <a href="<?php echo base_url(); ?>index.php/control/signin">Sign in.</a>
               </p>
             </form>
           </div>
@@ -79,39 +86,39 @@
           <div class="directory">
               <h3>LinkedIn member directory:</h3>
             <div class="directory-links">
-                <a href="what_is_linkedin.html">a</a>
-              <a href="what_is_linkedin.html">b</a>
-              <a href="what_is_linkedin.html">c</a>
-              <a href="what_is_linkedin.html">d</a>
-              <a href="what_is_linkedin.html">e</a>
-              <a href="what_is_linkedin.html">f</a>
-              <a href="what_is_linkedin.html">g</a>
-              <a href="what_is_linkedin.html">h</a>
-              <a href="what_is_linkedin.html">i</a>
-              <a href="what_is_linkedin.html">j</a>
-              <a href="what_is_linkedin.html">k</a>
-              <a href="what_is_linkedin.html">l</a>
-              <a href="what_is_linkedin.html">m</a>
-              <a href="what_is_linkedin.html">n</a>
-              <a href="what_is_linkedin.html">o</a>
-              <a href="what_is_linkedin.html">p</a>
-              <a href="what_is_linkedin.html">q</a>
-              <a href="what_is_linkedin.html">r</a>
-              <a href="what_is_linkedin.html">s</a>
-              <a href="what_is_linkedin.html">t</a>
-              <a href="what_is_linkedin.html">u</a>
-              <a href="what_is_linkedin.html">v</a>
-              <a href="what_is_linkedin.html">w</a>
-              <a href="what_is_linkedin.html">x</a>
-              <a href="what_is_linkedin.html">y</a>
-              <a href="what_is_linkedin.html">z</a>
+                <a href="<?php echo base_url(); ?>">a</a>
+              <a href="<?php echo base_url(); ?>">b</a>
+              <a href="<?php echo base_url(); ?>">c</a>
+              <a href="<?php echo base_url(); ?>">d</a>
+              <a href="<?php echo base_url(); ?>">e</a>
+              <a href="<?php echo base_url(); ?>">f</a>
+              <a href="<?php echo base_url(); ?>">g</a>
+              <a href="<?php echo base_url(); ?>">h</a>
+              <a href="<?php echo base_url(); ?>">i</a>
+              <a href="<?php echo base_url(); ?>">j</a>
+              <a href="<?php echo base_url(); ?>">k</a>
+              <a href="<?php echo base_url(); ?>">l</a>
+              <a href="<?php echo base_url(); ?>">m</a>
+              <a href="<?php echo base_url(); ?>">n</a>
+              <a href="<?php echo base_url(); ?>">o</a>
+              <a href="<?php echo base_url(); ?>">p</a>
+              <a href="<?php echo base_url(); ?>">q</a>
+              <a href="<?php echo base_url(); ?>">r</a>
+              <a href="<?php echo base_url(); ?>">s</a>
+              <a href="<?php echo base_url(); ?>">t</a>
+              <a href="<?php echo base_url(); ?>">u</a>
+              <a href="<?php echo base_url(); ?>">v</a>
+              <a href="<?php echo base_url(); ?>">w</a>
+              <a href="<?php echo base_url(); ?>">x</a>
+              <a href="<?php echo base_url(); ?>">y</a>
+              <a href="<?php echo base_url(); ?>">z</a>
               
             </div>
           
               <div class="country-search">
                   <h3>Browse members</h3>
                 <div class="link">
-                  <a href="what_is_linkedin.html">by country</a>
+                  <a href="<?php echo base_url(); ?>index.php/control/mycountry">by country</a>
                 </div>
                 
               </div>
@@ -120,11 +127,11 @@
               <strong>*</strong>
             By joining LinkedIn, you agree to linkedIn's
             <div class="agreement-links">
-               <a href="what_is_linkedin.html">User Agreement</a>
+               <a href="<?php echo base_url(); ?>index.php/control/useragreement">User Agreement</a>
                ,
-               <a href="what_is_linkedin.html">Privacy Policy</a>
+               <a href="<?php echo base_url(); ?>">Privacy Policy</a>
                and
-               <a href="what_is_linkedin.html">Cookie Policy</a>
+               <a href="<?php echo base_url(); ?>">Cookie Policy</a>
                .
             </div>
           </div>
